@@ -14,4 +14,9 @@ export class AppController {
   getTest(): string{
     return "argocd test binary";
   }
+
+  @Get('test2')
+  getTest2(): string{
+    return "argocd test 2";
+  }
 }

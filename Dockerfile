@@ -1,4 +1,5 @@
-FROM node:16 AS builder
+#!/bin/bash
+FROM node:16 as builder
 WORKDIR /app
 COPY . .
 RUN npm install
