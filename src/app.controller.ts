@@ -29,4 +29,9 @@ export class AppController {
   getTest5(): string{
     return "argocd test 5";
   }
+
+  @Get('test6')
+  getTest6():string{
+    return "aaa";
+  }
 }
