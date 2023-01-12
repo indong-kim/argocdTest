@@ -20,4 +20,8 @@ export class AppController {
     return "argocd test 2";
   }
 
+  @Get('test4')
+  getTest4(): string{
+    return "argocd test 4";
+  }
 }
