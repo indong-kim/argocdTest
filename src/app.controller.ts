@@ -31,7 +31,12 @@ export class AppController {
   }
 
   @Get('test6')
-  getTest6():string{
+  getTest6(): string{
     return "aaa";
+  }
+
+  @Get('test7')
+  getTest7(): string{
+    return "bbb";
   }
 }
