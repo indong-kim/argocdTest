@@ -44,4 +44,9 @@ export class AppController {
   getTest8(): string{
     return "ccc";
   }
+
+  @Get('test9')
+  getTest(): string{
+    return 'dddd';
+  }
 }
