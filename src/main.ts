@@ -17,6 +17,7 @@ async function bootstrap() {
 
   console.log('application load');
   console.log(`env value = ${process.env.TEST}`);
+  console.log(`security env value = ${process.env.SECURITY}`);
 
   await app.listen(3000);
 }
