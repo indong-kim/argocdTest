@@ -16,6 +16,7 @@ async function bootstrap() {
   SwaggerModule.setup('api',app,document);
 
   console.log('application load');
+  console.log('application load2');
   console.log(`env value = ${process.env.TEST}`);
   console.log(`security env value = ${process.env.SECURITY}`);
 
